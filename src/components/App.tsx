@@ -1,7 +1,11 @@
 import React from "react";
+import { Link } from 'elara-react-common';
 
 export default function App(){
     return(
-        <h1>Hello starting proj!!</h1>
+        <div><Link text='hda' href='#' /></div>
     )
 }
+
+
+
