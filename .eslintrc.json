@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
+        "no-extra-semi": "off",
+        "import/prefer-default-export": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "react/no-array-index-key": "off",
+        "max-len": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "react/jsx-props-no-spreading": "off",
+        "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+        "consistent-return": "off",
+        "spaced-comment": "off",
+        "class-methods-use-this": "off",
+        "jsx-a11y/control-has-associated-label": "off",
+        "camelcase": "off",
+        "react/jsx-one-expression-per-line": "off"
+    }
+}
